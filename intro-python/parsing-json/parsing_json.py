@@ -31,3 +31,6 @@ json_data = json.loads(json_text)
 # Display the type and contents of the json_data variable
 print("json_data is a", type(json_data))
 pprint(json_data)
+
+print (json_data["ietf-interfaces:interface"]["ietf-ip:ipv4"]["address"][0]["ip"])
+print (json_data["ietf-interfaces:interface"]["ietf-ip:ipv4"]["address"][0]["netmask"])
